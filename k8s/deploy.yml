@@ -5,6 +5,7 @@ metadata:
   labels:
     app: MySCM
 spec:
+  # replicas: 2 # tells deployment to run 2 pods matching the template
   template:
     metadata:
       labels:
