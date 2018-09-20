@@ -2,9 +2,9 @@
 FROM alpine:3.5
 
 # some usefull tags
-LABEL image-name docker-sfeirschool-back
-LABEL maintainer furgerot.f@sfeir.com
-LABEL sfeirschool-date 2018-03-07
+LABEL image-name some-image
+LABEL maintainer name@domain.com
+LABEL name value
 
 # install nodejs 
 RUN apk add --update nodejs
