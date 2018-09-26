@@ -13,3 +13,7 @@ kubectl create secret generic wordpress-instance-credentials --from-file=credent
 
 kubectl create secret generic wordpress-db-credentials --from-literal=username=[DBUSER] --from-literal=password=[PASSWORD]
 
+Create a namespace on Kubernetes
+
+kubectl create namespace my-scm
+
